@@ -1,0 +1,72 @@
+/**/
+/*Used the #BCBBBB as the body color*/
+body {
+    background-color: #BCBBBB;
+    color: #F8981C;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#pimg {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+img-responsive {
+    height: 100%;
+    width: 100%;
+}
+/*also apply it to the nav to blend in*/
+.navbar {
+    background-color: #BCBBBB;
+    border: none;
+}
+
+#name {
+    font-size: 24px;
+    color: #F8981C;
+    font-family: 'Lobster', cursive;
+    text-align: right;
+}
+
+#name:visited {
+    color: red;
+}
+/* Carousel CSS config 
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 70px;
+}
+/* Since positioning the image,I place 
+index to 1 so the caption can be seen */
+.carousel-caption {
+    z-index: 1;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+/* Declare heights because of positioning 
+of img element */
+.carousel .item {
+    height: 450px;
+    background-color: #555555;
+}
+
+.carousel img {
+    opacity: inherit;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 450px;
+}
+
+#copy {
+    padding-left: 10px;
+}
+
+img:hover {
+    opacity: 0.4;
+}
