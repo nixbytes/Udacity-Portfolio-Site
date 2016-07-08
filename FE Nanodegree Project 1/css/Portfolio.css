@@ -1,8 +1,8 @@
 /**/
 /*Used the #BCBBBB as the body color*/
 body {
-    background-color: #BCBBBB;
-    color: #F8981C;
+    background-color: #2d3c49;
+    color: #02b3e4;
     font-family: 'Fredericka the Great', cursive;
 }
 
@@ -17,13 +17,13 @@ img-responsive {
 }
 /*also apply it to the nav to blend in*/
 .navbar {
-    background-color: #BCBBBB;
+    background-color: #7d97ad;
     border: none;
 }
 
 #name {
     font-size: 24px;
-    color: #F8981C;
+    color: #02b3e4;;
     font-family: 'Lobster', cursive;
     text-align: right;
 }
